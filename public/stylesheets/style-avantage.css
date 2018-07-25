@@ -1,0 +1,75 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Raleway', Helvetica, sans-serif;
+  color: #FFFFFF;
+}
+
+a {
+  color: #FFFFFF;
+}
+a:hover{
+  color: #3B4478;
+  font-weight: bold;
+}
+/**** Navbar ****/
+
+.navbar {
+  background-color: #F75B5C;
+}
+/*** Avantages ***/
+#Avantages{
+  color: #3B4478;
+  height: 100vh;
+  width: 100vw;
+  padding-top: 20px;
+  margin-top: 50px;
+  overflow: auto;
+}
+/* #avantage-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+.avantage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*** Footer ***/
+.footer {
+  height: 30vh;
+  background-color: #F75B5C;
+  color: #FFFFFF;
+  padding-top: 30px;
+  margin-bottom: 0px;
+}
+.footer p {
+  text-align: center;
+  background-color: #F75B5C;
+}
+.social{
+  width: 64px;
+}
+#legal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#footer-items{
+  margin-bottom: 0px;
+  margin-top: 20px;
+  background-color: #F75B5C;
+
+}
+#Copyright{
+  background-color: #F75B5C;
+  margin-bottom: 0px;
+  height: 5vh;
+}
+#Copyright p{
+  font-size: 14px;
+}

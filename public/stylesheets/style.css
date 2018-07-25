@@ -1,0 +1,204 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Raleway', Helvetica, sans-serif;
+  width: 100%;
+  color: #FFFFFF;
+
+}
+
+a {
+  color: #FFFFFF;
+}
+a:hover{
+  color: #3B4478;
+  font-weight: bold;
+}
+/**** Navbar ****/
+
+.navbar {
+  background-color: #F75B5C;
+}
+
+/*** Réserver ***/
+#Réserver {
+  height: 100vh;
+  background-color: #F75B5C;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /*overflow:hidden*/
+}
+
+#Réserver h1 h2 h3 h4{
+  text-align: center;
+}
+#resa-way{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.btn-reserver {
+  background-color: #3B4478;
+  color: #FFFFFF;
+  border: 1px solid #3B4478;
+  border-radius: 4px;
+  padding: 10px;
+  margin-top: 15px;
+  font-size: 20px;
+}
+.btn-reserver:hover {
+  text-decoration: none;
+  font-weight: bold;
+  color: #FFFFFF;
+
+}
+.main-flex {
+  /* height: 40vh; */
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#car{
+  width: 200px;
+  /* margin-left: 200px; */
+}
+/*** Bot ***/
+
+.botsocref{
+  align-items: center;
+}
+/*** Chatbot ***/
+#Chatbot {
+  height: 90vh;
+  background-color: #FFFFFF;
+  width: 100vw;
+  clear: both;
+  padding-bottom: 10px;
+  /*overflow:hidden*/
+}
+#Chatbot h2 h3 {
+  color: #0396FF;
+}
+#Chatbot-b{
+  height: 100%;
+  padding-top: 20px;
+  background-color: #FFFFFF;
+
+}
+.form-group{
+  color: #3B4478;
+  border: 1px solid #3B4478;
+  border-radius: 4px;
+  margin: 15px;
+  padding: 10px;
+}
+label {
+  margin: 10px;
+}
+button {
+  margin: 10px;
+  background-color: #3B4478;
+}
+
+/*** Avantages ***/
+#Avantages{
+  color: #3B4478;
+  height: 100vh;
+  width: 100vw;
+  padding-top: 20px;
+  margin-top: 50px;
+
+  /*overflow:hidden*/
+}
+/* #avantage-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+.avantage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/*** Services ***/
+#Services {
+  height: 100vh;
+  width: 100%;
+  color: #3B4478;
+  padding-top: 50px;
+}
+.service-list {
+  margin: 100px;
+}
+.service h4 {
+  color: #F75B5C;
+  font-weight: bold;
+}
+/*** mentions ***/
+#Mentions {
+  height: 70vh;
+  width: 100vw;
+}
+#Mentions h1 p {
+  color: #3B4478;
+}
+ /*** Contact ***/
+
+ .contact-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  padding-top: 20px;
+ }
+  .form-group-contact {
+    width: 70%;
+  }
+  #Contact {
+    color: #3B4478;
+    height: 100vh;
+    padding-top: 50px;
+  }
+
+/*** Footer ***/
+.footer {
+  height: 40vh;
+  background-color: #F75B5C;
+  color: #FFFFFF;
+  padding-top: 90px;
+}
+.footer p {
+  text-align: center;
+}
+.social{
+  width: 64px;
+}
+#legal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#footer-items{
+  margin-bottom: 40px;
+  margin-top: 20px;
+  background-color: #F75B5C;
+
+}
+#Copyright{
+  background-color: #F75B5C;
+  margin-bottom: 0px;
+  height: 10vh;
+}
+#Copyright p{
+  font-size: 14px;
+}
