@@ -31,7 +31,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link" href="http://m.me/2134919950110550">Réserver</a>
+                  <a class="nav-link" href="#landbot">Réserver</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="/pourquoi">Pourquoi nous</a>
@@ -55,29 +55,27 @@
           <h2>avec le Chatbot de <span style="font-weight: bold; font-size: 34px;">kality</span><span style="color: #3B4478; font-weight: bold;font-size: 34px;">fly</span></h2>
         </div>
         <h4>Tranquilité, Sécurité, Confiance </h4>
-        <a class="btn-reserver" href="http://m.me/2134919950110550">Je réserve une course</a>
+        <a class="btn-reserver" href="#landbot">Je réserve une course</a>
         <!-- <img src="/images/car1.svg" id="car" alt=""> -->
       <!-- </div> -->
     </div>
 
     <!-- Fin Banniere -->
 
-    <!-- Chatbot -->
 
-    <div class="container-fluid"  id="Chatbot">
-      <div class="container text-center" id="Chatbot-b">
-        <img src="/images/chatbot.gif" id="chatbot-gif" class="img-fluid" alt="">
-        <!-- <script type='text/javascript' src='https://app.botsociety.io/js/lib/embedsoc.js'></script><a class='botsocref' style='position:fixed;left:-30000px;' href='https://botsociety.io'>botsociety</a><a class='botsoc' rel='nofollow' href='https://app.botsociety.io/emb/5b56eb58b293ce0024ade3d7?p=11adf13fc0a0dc16032ca36df44ae8c4d79e8366' target='medium'></a> -->
-      </div>
-  </div>
+    <!-- Chatbot  -->
+    <div id="landbot">
+      <script src="https://static.landbot.io/landbot-widget/landbot-widget-1.0.0.js"></script>
+      <div id="landbot-1540821609300" style="width: 100%; height: 100%"></div>
+      <script>
+        var myLandbotFrame = new LandbotFrameWidget({
+          container: '#landbot-1540821609300',
+          index: 'https://landbot.io/u/H-38363-JGKCI96Z2W2UATW1/index.html',
+        });
+      </script>
+    </div>
+
     <!-- Fin Chatbot -->
-
-    <!-- Services -->
-    <!-- <div class="container-fluid" id="Services">
-
-    </div> -->
-
-    <!-- Fin Services -->
 
     <!-- Footer -->
 
@@ -96,7 +94,7 @@
       </div>
     </footer>
 
-    <div class="text-center d-none d-md-block" id="Copyright"><p>Copyright 2018 KALITY CAB SAS</p></div>
+    <div class="container-fluid text-center d-none d-md-block" id="Copyright"><p>Copyright 2018 KALITY CAB SAS</p></div>
 
     <!-- Fin Footer -->
 

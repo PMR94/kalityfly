@@ -18,6 +18,8 @@ a:hover{
 
 .navbar {
   background-color: #F75B5C;
+  width: 100vw;
+
 }
 
 /*** Réserver ***/
@@ -129,6 +131,14 @@ button {
   justify-content: center;
   align-items: center;
 }
+
+/*** Formulaire ***/
+#landbot {
+  height: 100vh;
+  width: 100vw;
+}
+
+
 /*** Services ***/
 #Services {
   height: 100vh;
@@ -171,16 +181,17 @@ button {
 
 /*** Footer ***/
 .footer {
-  height: 40vh;
+  height: 20vh;
+  width: 100vw;
   background-color: #F75B5C;
   color: #FFFFFF;
   padding-top: 90px;
 }
-.footer p {
-  text-align: center;
+.footer a {
+  font-size: 12px;
 }
 .social{
-  width: 64px;
+  width: 32px;
 }
 #legal{
   display: flex;
@@ -192,13 +203,15 @@ button {
   margin-bottom: 40px;
   margin-top: 20px;
   background-color: #F75B5C;
+  width: 100%;
 
 }
 #Copyright{
   background-color: #F75B5C;
-  margin-bottom: 0px;
+  padding-top: 30px;
+  margin-bottom:0px;
   height: 10vh;
 }
 #Copyright p{
-  font-size: 14px;
+  font-size: 10px;
 }
